@@ -61,3 +61,32 @@ footer {
     margin-top: 3rem;
     font-size: 0.9rem;
 }
+
+.chapter {
+    max-width: 800px;        /* keeps lines readable */
+    margin: 2rem auto;       /* center it */
+    padding: 1rem;
+    font-family: 'Georgia', serif; /* classy readable font */
+    line-height: 1.6;        /* space out lines */
+    color: #bbbbbb;             /* dark gray instead of black */
+}
+
+.chapter h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.chapter em {
+    display: block;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+    color: #bbbbbb;
+}
+
+.chapter p {
+    margin-bottom: 1rem;
+}
+
+.chapter div {
+    text-align: justify;     /* makes text blocky and neat */
+}
