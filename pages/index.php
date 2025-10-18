@@ -1,15 +1,15 @@
-<?php include('includes/header.php'); ?>
-<?php include('includes/db_connection.php'); ?>
+<?php include('../includes/header.php'); ?>
+<?php include('../includes/db_connection.php'); ?>
 
 <?php
-$sql = "SELECT id, title, description FROM chapters ORDER BY created_at DESC LIMIT 5";
+$sql = "SELECT id, title, description FROM chapters ORDER BY publish_date DESC LIMIT 5";
 $result = $conn->query($sql);
 ?>
 
 <main>
     <!-- Hero Section -->
     <section class="hero">
-        <img src="images/finalfantasy6wallpaper.jpg" alt="No official art yet sadly">
+        <img src="../images/finalfantasy6wallpaper.jpg" alt="No official art yet sadly">
         <div class="hero-text">
             <h1>The Intertwined Archives</h1>
             <p>Where myth, memory, and madness intertwine...</p>
@@ -42,4 +42,4 @@ $result = $conn->query($sql);
     </section>
 </main>
 
-<?php include('includes/footer.php'); ?>
+<?php include('../includes/footer.php'); ?>

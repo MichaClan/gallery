@@ -1,5 +1,5 @@
 <?php
-include('includes/db_connection.php'); // or wherever your $conn is defined
+include('includes/db_connection.php');
 
 $title = "Chapter 1";
 $description = "The strange journey of The Head of The Jittleyang Clan";

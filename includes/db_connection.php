@@ -1,8 +1,8 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = ""; // your phpMyAdmin password, if any
-$dbname = "gallery";
+$password = "";
+$dbname = "intertwined_archives";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
